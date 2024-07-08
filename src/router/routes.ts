@@ -1,11 +1,11 @@
-import HelloWorld from '../components/HelloWorld.vue'
-import TestComponent from '../components/TestComponent.vue'
-import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
+import HelloWorld from '../components/HelloWorld.vue';
+import { createRouter, createWebHistory } from 'vue-router';
+import TypeTest from '../views/typeTest/TypeTest.vue'
 
 
 const routes = [
   { path: '/', name: 'Hello World', component: HelloWorld },
-  { path: '/test', name: 'Test', component: TestComponent },
+  { path: '/typing-test', name: 'Typing Test', component: TypeTest },
 ]
 
 export const router = createRouter({
